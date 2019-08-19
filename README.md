@@ -45,6 +45,7 @@ Courtesy of [@dgraziotin](https://github.com/dgraziotin)
 - B. Kitchenham and S. Charters, "Guidelines for performing Systematic Literature reviews in Software Engineering," Engineering, vol. 45, no. 4ve, p. 1051, 2007.
 - G. Schryen, G. Wagner, and A. Benlian, "Theory of Knowledge for Literature Reviews: An Epistemological Model , Taxonomy and Empirical Analysis of IS Literature," in Proceedings of the 36th International Conference on Information Systems, 2015, pp. 1–22.
 - G. Schryen, "Writing Qualitative IS Literature Reviews—Guidelines for Synthesis, Interpretation, and Guidance of Research," Commun. Assoc. Inf. Syst., vol. 37, pp. 286–325, 2015.
+- X. Zhou, Y. Jin, H. Zhang, S. Li, and X. Huang, "A Map of Threats to Validity of Systematic Literature Reviews in Software Engineering," in 2016 23rd Asia-Pacific Software Engineering Conference (APSEC), 2016, pp. 153–160.
 - P. Järvinen, "On lenses and their improvements for identifying research gaps in literature review," Tampere, Finland, 2016.
 - K. Petersen, S. Vakkalanka, and L. Kuzniarz, "Guidelines for conducting systematic mapping studies in software engineering: An update," Inf. Softw. Technol., vol. 64, pp. 1–18, Aug. 2015.
 - K. Petersen, R. Feldt, S. Mujtaba, and M. Mattsson, "Systematic mapping studies in software engineering," EASE’08 Proc. 12th Int. Conf. Eval. Assess. Softw. Eng., pp. 68–77, 2008.
