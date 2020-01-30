@@ -30,7 +30,8 @@
     "output": {
       "html": {
         "template": "src/index.html"
-      }
+      },
+      "publicUrl": "./"
     }
   }
 }
