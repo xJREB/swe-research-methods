@@ -1,0 +1,21 @@
+.box section {
+  margin: 15px 0;
+  padding: 15px 0;
+}
+
+.box section .container {
+  margin: 10px 0;
+}
+
+.csl-entry {
+  margin: 5px 0;
+}
+
+.csl-left-margin {
+  float: left;
+  margin-right: 5px;
+}
+
+.tags a {
+  margin-left: 5px;
+}
