@@ -1,6 +1,6 @@
 {
   "name": "swe-research-methods",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A curated collection of literature for philosophy of science and research methodologies with a focus on software engineering",
   "scripts": {
     "start": "poi --serve",
