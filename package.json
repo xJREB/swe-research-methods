@@ -1,0 +1,36 @@
+{
+  "name": "swe-research-methods",
+  "version": "0.1.0",
+  "description": "A curated collection of literature for philosophy of science and research methodologies with a focus on software engineering",
+  "scripts": {
+    "start": "poi --serve",
+    "build": "poi --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xJREB/swe-research-methods.git"
+  },
+  "author": "xJREB",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/xJREB/swe-research-methods/issues"
+  },
+  "homepage": "https://github.com/xJREB/swe-research-methods#readme",
+  "devDependencies": {
+    "poi": "^12.7.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bulma": "^0.8.0",
+    "citation-js": "^0.4.10",
+    "font-awesome": "^4.7.0"
+  },
+  "poi": {
+    "entry": "src/index.js",
+    "output": {
+      "html": {
+        "template": "src/index.html"
+      }
+    }
+  }
+}
