@@ -64,7 +64,8 @@ With suggestions from [@dgraziotin](https://github.com/dgraziotin)
 1. Ciolkowski, M., Laitenberger, O., Vegas, S. & Biffl, S. Practical Experiences in the Design and Conduct of Surveys in Empirical Software Engineering. in Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 2765, 104–128 (Springer Berlin Heidelberg, 2003).
 2. Kasunic, M. Designing an Effective Survey. (2005).
 3. Kitchenham, B. A. & Pfleeger, S. L. Personal Opinion Surveys. in Guide to Advanced Empirical Software Engineering 63–92 (Springer London, 2008). doi:10.1007/978-1-84800-044-5_3
-4. Molleri, J. S., Petersen, K. & Mendes, E. Survey Guidelines in Software Engineering. in Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement - ESEM ’16 08-09-Sept, 1–6 (ACM Press, 2016).
+4. Molléri, J. S., Petersen, K. & Mendes, E. Survey Guidelines in Software Engineering. in Proceedings of the 10th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement - ESEM ’16 08-09-Sept, 1–6 (ACM Press, 2016).
+5. Molléri, J. S., Petersen, K. & Mendes, E. An empirically evaluated checklist for surveys in software engineering. Inf. Softw. Technol. 119, 106240 (2020).
 
 ## Controlled Experiments
 
