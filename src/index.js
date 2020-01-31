@@ -1,4 +1,5 @@
 import "bulma/css/bulma.min.css";
+import "bulma-extensions/dist/css/bulma-extensions.min.css";
 import "./styles.css";
 
 import axios from "axios";
@@ -20,6 +21,7 @@ window.onload = async function() {
 
   const templateName = "ieee";
 
+  // ensure that the CSL file is present for citation.js (query it from GitHub)
   if (!["apa", "harvard1", "vancouver", "bibtex"].includes(templateName)) {
     const styleUrl = "https://raw.githubusercontent.com/citation-style-language/styles/master/" + templateName + ".csl";
     const template = (await axios.get(styleUrl)).data;
@@ -27,14 +29,27 @@ window.onload = async function() {
     citeConfig.templates.add(templateName, template);
   }
 
+  // retrieve bib files for all sections, transform to HTML, and add to the respective DOM element
   const refs = ["refs1", "refs2", "refs3", "refs4", "refs5", "refs6", "refs7", "refs8"];
   Promise.all(refs.map(entry => axios.get(`bibs/${entry}.bib`))).then(responses => {
     responses.forEach((res, index) => {
-      document.getElementById(`refs${index + 1}`).innerHTML = new Cite(res.data).format("bibliography", {
-        format: "html",
-        template: templateName,
-        lang: "en-US"
-      });
+      const html = replaceDoisWithLinks(
+        new Cite(res.data).format("bibliography", {
+          format: "html",
+          template: templateName,
+          lang: "en-US"
+        })
+      );
+      document.getElementById(`refs${index + 1}`).innerHTML = html;
     });
+
+    // remove loading animation
+    const el = document.querySelector(".pageloader");
+    el.classList.remove("is-active");
   });
 };
+
+// replace DOI occurences in the HTML with links
+function replaceDoisWithLinks(html) {
+  return html.replace(/doi: (.*)\.<\/div>/g, "doi: <a target='_blank' href='https://www.doi.org/$1'>$1</a>.</div>");
+}

@@ -13,6 +13,7 @@
 
 .csl-entry {
   margin: 5px 0;
+  display: flex;
 }
 
 .csl-left-margin {
@@ -22,4 +23,8 @@
 
 .tags a {
   margin-left: 5px;
+}
+
+.pageloader {
+  background: #3273dc;
 }
