@@ -53,6 +53,13 @@ With suggestions from [@dgraziotin](https://github.com/dgraziotin)
 10. Wohlin, C. Guidelines for snowballing in systematic literature studies and a replication in software engineering. in Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering - EASE ’14 1–10 (ACM Press, 2014). doi:10.1145/2601248.2601268
 11. Zhou, X., Jin, Y., Zhang, H., Li, S. & Huang, X. A Map of Threats to Validity of Systematic Literature Reviews in Software Engineering. in 2016 23rd Asia-Pacific Software Engineering Conference (APSEC) 153–160 (IEEE, 2016). doi:10.1109/APSEC.2016.031
 
+## Grey Literature
+
+1. Rainer, A. & Williams, A. Heuristics for improving the rigour and relevance of grey literature searches for software engineering research. Inf. Softw. Technol. 106, 231–233 (2019).
+2. Neto, G. T. G., Santos, W. B., Endo, P. T. & Fagundes, R. A. A. Multivocal literature reviews in software engineering: Preliminary findings from a tertiary study. in 2019 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM) 2019-Septe, 1–6 (IEEE, 2019).
+3. Garousi, V., Felderer, M. & Mäntylä, M. V. Guidelines for including grey literature and conducting multivocal literature reviews in software engineering. Inf. Softw. Technol. 106, 101–121 (2019).
+4. Garousi, V., Felderer, M. & Mäntylä, M. V. The need for multivocal literature reviews in software engineering. in Proceedings of the 20th International Conference on Evaluation and Assessment in Software Engineering - EASE ’16 01-03-June, 1–6 (ACM Press, 2016).
+
 ## Qualitative Studies
 
 1. Hove, S. E. & Anda, B. Experiences from Conducting Semi-structured Interviews in Empirical Software Engineering Research. in 11th IEEE International Software Metrics Symposium (METRICS’05) 23–23 (IEEE, 2005). doi:10.1109/METRICS.2005.24
