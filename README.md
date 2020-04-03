@@ -4,6 +4,7 @@
 
 There are also a `.bib` file with all references (see [here](public/bibs/all-refs.bib)) and a [Mendeley community](https://www.mendeley.com/community/swe-research-methods/) to make citation easier.
 Literature suggestions per subsection are in alphabetical order.
+The README uses Nature citation style while the website relies on the IEEE format.
 Pull requests or issues are welcome!
 
 ## Philosophy of Science
@@ -49,7 +50,8 @@ With suggestions from [@dgraziotin](https://github.com/dgraziotin)
 7. Petersen, K., Vakkalanka, S. & Kuzniarz, L. Guidelines for conducting systematic mapping studies in software engineering: An update. Inf. Softw. Technol. 64, 1–18 (2015).
 8. Schryen, G. Writing Qualitative IS Literature Reviews—Guidelines for Synthesis, Interpretation, and Guidance of Research. Commun. Assoc. Inf. Syst. 37, 286–325 (2015).
 9. Schryen, G., Wagner, G. & Benlian, A. Theory of Knowledge for Literature Reviews: An Epistemological Model , Taxonomy and Empirical Analysis of IS Literature. in Proceedings of the 36th International Conference on Information Systems 1–22 (2015).
-10. Zhou, X., Jin, Y., Zhang, H., Li, S. & Huang, X. A Map of Threats to Validity of Systematic Literature Reviews in Software Engineering. in 2016 23rd Asia-Pacific Software Engineering Conference (APSEC) 153–160 (IEEE, 2016). doi:10.1109/APSEC.2016.031
+10. Wohlin, C. Guidelines for snowballing in systematic literature studies and a replication in software engineering. in Proceedings of the 18th International Conference on Evaluation and Assessment in Software Engineering - EASE ’14 1–10 (ACM Press, 2014). doi:10.1145/2601248.2601268
+11. Zhou, X., Jin, Y., Zhang, H., Li, S. & Huang, X. A Map of Threats to Validity of Systematic Literature Reviews in Software Engineering. in 2016 23rd Asia-Pacific Software Engineering Conference (APSEC) 153–160 (IEEE, 2016). doi:10.1109/APSEC.2016.031
 
 ## Qualitative Studies
 
