@@ -17,13 +17,13 @@
   },
   "homepage": "https://xjreb.github.io/swe-research-methods",
   "devDependencies": {
-    "poi": "^12.10.2"
+    "poi": "^12.10.3"
   },
   "dependencies": {
-    "axios": "^0.20.0",
-    "bulma": "^0.9.0",
+    "axios": "^0.21.1",
+    "bulma": "^0.9.3",
     "bulma-extensions": "^6.2.7",
-    "citation-js": "^0.4.10"
+    "citation-js": "^0.5.1"
   },
   "poi": {
     "entry": "src/index.js",
