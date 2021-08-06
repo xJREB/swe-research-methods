@@ -30,7 +30,7 @@ window.onload = async function() {
   }
 
   // retrieve bib files for all sections, transform to HTML, and add to the respective DOM element
-  const refs = ["refs1", "refs2", "refs3", "refs4", "refs5", "refs6", "refs7", "refs8", "refs9"];
+  const refs = ["phil-of-science", "general-ese", "theories", "slrs", "glrs", "qualitative-studies", "surveys", "experiments", "design-science"];
   Promise.all(refs.map(entry => axios.get(`bibs/${entry}.bib`))).then(responses => {
     responses.forEach((res, index) => {
       const html = replaceDoisWithLinks(
@@ -40,7 +40,7 @@ window.onload = async function() {
           lang: "en-US"
         })
       );
-      document.getElementById(`refs${index + 1}`).innerHTML = html;
+      document.getElementById(refs[index]).innerHTML = html;
     });
 
     // remove loading animation
