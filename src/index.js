@@ -30,7 +30,7 @@ window.onload = async function() {
   }
 
   // retrieve bib files for all sections, transform to HTML, and add to the respective DOM element
-  const refs = ["phil-of-science", "general-ese", "theories", "slrs", "glrs", "qualitative-studies", "surveys", "experiments", "design-science"];
+  const refs = ["phil-of-science", "general-ese", "theories", "slrs", "glrs", "qualitative-studies", "surveys", "experiments", "design-science", "tool-building-eval", "msr"];
   Promise.all(refs.map(entry => axios.get(`bibs/${entry}.bib`))).then(responses => {
     responses.forEach((res, index) => {
       const html = replaceDoisWithLinks(
