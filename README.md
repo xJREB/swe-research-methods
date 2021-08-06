@@ -7,4 +7,4 @@ Literature suggestions per subsection are in alphabetical order.
 The website relies on the IEEE reference format.
 Pull requests or issues are welcome!
 
-![Screenshot](./public/img/screenshot.png "Screenshot")
+[![Screenshot](./public/img/screenshot.png "Screenshot")](https://xjreb.github.io/swe-research-methods/)
