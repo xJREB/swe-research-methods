@@ -1,6 +1,6 @@
 {
   "name": "swe-research-methods",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A curated collection of literature for philosophy of science and research methodologies with a focus on software engineering",
   "scripts": {
     "start": "poi --serve",
@@ -20,10 +20,10 @@
     "poi": "^12.10.3"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.25.0",
     "bulma": "^0.9.3",
     "bulma-extensions": "^6.2.7",
-    "citation-js": "^0.5.1"
+    "citation-js": "^0.5.6"
   },
   "poi": {
     "entry": "src/index.js",
